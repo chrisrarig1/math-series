@@ -7,6 +7,11 @@ def test_one():
     expected = 1
     assert actual == expected
 
+def test_not20():
+    actual = fibonacci(9)
+    expected = 20
+    assert actual != expected
+
 
 def test_two():
     actual = fibonacci(2)
